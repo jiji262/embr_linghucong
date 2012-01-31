@@ -54,16 +54,19 @@ class setup_model extends CI_Model{
 	      'type' => 'TEXT'
 	    ),
 	    'content' => array(
-	      'type' =>'TEXT'
+	      'type' =>'TEXT',
+	      'null' => TRUE,
 	    ),
    	    'datet' => array(
 	      'type' => 'TIMESTAMP'
 	    ),
 	    'image' => array(
-	      'type' =>'TEXT'
+	      'type' =>'TEXT',
+	      'null' => TRUE,
 	    ),
         'summary' => array(
-	      'type' =>'TEXT'
+	      'type' =>'TEXT',
+	      'null' => TRUE,
 	    ),
 	    'comments' => array(
           'type' =>'INT'
@@ -72,7 +75,8 @@ class setup_model extends CI_Model{
           'type' =>'INT'
         ),
 		'source' => array(
-	      'type' =>'TEXT'
+	      'type' =>'TEXT',
+	      'null' => TRUE,
 	    )
 	  );
 	  $this->dbforge->add_field($fields);
