@@ -26,3 +26,11 @@ Blog settings can be changed by editing the file:
 
 	application/config/blog.php
 
+## In Development
+
+- Post "reblogging" across self hosted embr blogs
+
+
+## Contact
+
+Laurence Dawson: [email](mailto:contact@laurencedawson.com), [twitter](http://twitter.com/#!/loljdawson)

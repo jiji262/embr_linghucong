@@ -196,6 +196,7 @@ class Admin extends CI_Controller{
     $post['comments'] = $this->input->post('comments');
     $post['published'] = $this->input->post('published');
 
+    
     //Submit the data to the model
     $this->blog_model->create( $post );
 
@@ -214,6 +215,7 @@ class Admin extends CI_Controller{
     
     //Check the user pressed submit
 	$my_action = $this->input->post("submit");
+	
     if ($my_action == "Post") {
 	  
       //Load the validation library
@@ -230,11 +232,13 @@ class Admin extends CI_Controller{
       //Set the rule that an image post requires a valid image and data OR Set the rule that a text post requires valid content
       $image_post ? $this->form_validation->set_rules('image', 'Image', 'required|valid_url') : 
         $this->form_validation->set_rules('content', 'Content', 'required|trim|isnt|unique_title');
-	  
+      
 	  //If the form passes validation create the new post
-      if ($this->form_validation->run() == TRUE)
+      if ($this->form_validation->run() == TRUE){      	
         $this->create_validated_post( $image_post );
+      }
 	  else{
+	  	
         // Pass the users info through	
 	    $data = $this->data_model->getSiteData();
 
@@ -252,6 +256,8 @@ class Admin extends CI_Controller{
 	    $data['post_comments'] = $this->input->post('comments')=='accept' ? TRUE : FALSE;
 	    $data['post_published'] = $this->input->post('published')=='accept' ? TRUE : FALSE;
 
+	    //print_r($data);exit;
+	    
 	    //Write the form out again, keeping the values
 	    $this->template->write('title', 'New Post');
 	    $this->template->write_view('contents', 'admin/editor', $data);

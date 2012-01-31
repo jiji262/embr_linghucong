@@ -19,6 +19,8 @@ class setup_model extends CI_Model{
    * Adds the basic table structure to the blog database
    */
   function addTables(){
+  	
+  	//echo "add tables";exit;
 
     /* Start the attempts table */
     if ( !$this->db->table_exists('attempts') ){

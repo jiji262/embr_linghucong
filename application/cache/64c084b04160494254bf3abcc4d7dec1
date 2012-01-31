@@ -1,0 +1,49 @@
+1327998708TS---><!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Example Blog</title>
+  <link rel="stylesheet" href="http://127.0.0.1/embr/combined.css"/>
+  <link href="http://127.0.0.1/embr/rss" rel="alternate" type="application/rss+xml" title="Example Blog"/>
+  </head>
+
+<body>
+  
+    <header>
+      <h1><a href="http://127.0.0.1/embr/" title="Example Blog">Example Blog</a></h1>
+      <h2>Insert witty tagline here.</h2>
+      <nav><a class="lg" href="http://127.0.0.1/embr/admin">Admin</a><a class="legend" href="#">Legend</a><a href="http://127.0.0.1/embr/rss" title="RSS">RSS</a></nav>
+    </header>	
+
+    <ul class="toolbox">
+  <li class="toolbox_element tools"><a href="http://127.0.0.1/embr/customize">Customize</a>
+  <li class="toolbox_element add-alt"><a href="http://127.0.0.1/embr/new_post">New Post</a>
+  <li class="toolbox_element promo_element profile"><a href="https://github.com/laurencedawson/embr">Get <strong>Embr</strong></a>
+</ul>
+
+<div class="posts">
+<div id="post_viewer"></div>
+<div class="post index"><h2><a href="http://127.0.0.1/embr/which-sites-is-built-by-twitters-bootstrap" class="post_link">which sites is built by twitters bootstrap</a></h2><p>which sites is built by twitters bootstrap<br></p> <p class="info"><span class="author">Posted by John</span><span class="info_separator"> on </span><span class="post_date"><span class="day">Tue</span><span class="date">31</span><span class="month">Jan</span><span class="year">2012</span></span></p></div><div class="post index"><h2><a href="http://127.0.0.1/embr/-characters-and-spaces" class="post_link"> characters and spaces</a></h2><p>互联网网站开发经验互联网网站开发经验<br></p> <p class="info"><span class="author">Posted by John</span><span class="info_separator"> on </span><span class="post_date"><span class="day">Tue</span><span class="date">31</span><span class="month">Jan</span><span class="year">2012</span></span></p></div><div class="post index"><h2><a href="http://127.0.0.1/embr/which-sites-is-built-by-twitters-bootstrap" class="post_link">which sites is built by twitters bootstrap</a></h2><p>http://img.hb.aicdn.com/bd13d4178d0985ac53c416667cef8921beedc17b98d3-De1u71_fw192<br></p> <p class="info"><span class="author">Posted by John</span><span class="info_separator"> on </span><span class="post_date"><span class="day">Tue</span><span class="date">31</span><span class="month">Jan</span><span class="year">2012</span></span></p></div><div class="post index"><h2><a href="http://127.0.0.1/embr/test-post" class="post_link">Test Post</a></h2><p>Nam vel nisi leo, ac luctus eros. Aenean lacinia, augue et suscipit vehicula, neque nulla feugiat elit, ut condimentum neque mi eget metus. In ut imperdiet eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue arcu id dolor luctus varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius ultrices dolor, vel pharetra dolor auctor in. Aenean egestas turpis a lorem tincidunt placerat. Fusce pharetra, enim nec vestibulum dictum, nisl dui luctus nisl, non commodo risus libero ac mi. Fusce non tortor vitae libero molestie tempor. Etiam sed nibh erat. Donec viverra neque sed nisi lobortis.</p> <p class="info"><span class="author">Posted by John</span><span class="info_separator"> on </span><span class="post_date"><span class="day">Tue</span><span class="date">31</span><span class="month">Jan</span><span class="year">2012</span></span></p></div></div>
+
+            <div class="cover">
+<div class="controls">
+  <h2>Example Blog - Keyboard Shortcuts</h2>
+  <img src="http://127.0.0.1/embr/img/keyboard.png" alt="Keyboard diagram"/><br/>
+  <span class="pad"><strong>J</strong> - next post</span>
+  <span><strong>K</strong> - previous post</span>
+</div>
+</div>
+    <footer>
+      <ul><li class="embr_link"><a href="http://embr.co"></a></ul>
+      <p>Copyright &copy; 2011 <b>John Doe</b>. All Rights Reserved.</p>
+    </footer>
+    <div class="key_spacer"></div>
+
+    <script src="///ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script async src="http://127.0.0.1/embr/js/embr.js"></script>
+  <script async src="http://127.0.0.1/embr/js/plugins.js"></script>
+  <script async src="http://127.0.0.1/embr/themes/helvetica/scripts.js"></script>
+  <script type="text/javascript" src="http://apis.google.com/js/plusone.js">{parsetags: 'explicit'}</script>
+</script>
+</body>
+</html>

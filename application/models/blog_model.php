@@ -153,7 +153,7 @@ class blog_model extends CI_Model {
     */ 
   function getNext( $id )
   {
-    $this->db->select( 'title' );
+    $this->db->select( 'title' );    
     $where = "blog.id = $id+1";
     $this->db->where( $where );
     $query = $this->db->get( 'blog' );
@@ -198,6 +198,7 @@ class blog_model extends CI_Model {
         'image' => $post['image'],
 		'comments' => $post['comments'] ? 1 : 0,
 		'published' => $post['published'] ? 1 : 0 );
+    
     $this->db->insert('blog', $data);
   }
 

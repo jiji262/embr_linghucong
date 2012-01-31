@@ -7,8 +7,8 @@ $config['first_name'] = "John";
 $config['last_name'] = "Doe";
 $config['contact_email'] = "example@example.com";
 $config['site_description'] = "Just another embr blog.";
-$config['admin_email'] = 'ADMINEMAIL';
-$config['admin_pass'] = 'ADMINPASS';
+$config['admin_email'] = 'jiguofei@msn.com';
+$config['admin_pass'] = '7758521';
 
 /* Theme Settings */
 $config['style'] = "helvetica";
