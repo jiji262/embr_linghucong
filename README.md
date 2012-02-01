@@ -8,23 +8,24 @@ A working text blog can be viewed [here](http://embr.co/demo/).
 
 ## Requires
 
-* [Codeigniter 2.0.2](http://codeigniter.com/download_files/reactor/CodeIgniter_2.0.2.zip)
+* [Codeigniter 2.1.0](http://codeigniter.com)
 
 * [CI Template Library](http://williamsconcepts.com/ci/codeigniter/libraries/template/)
 
 ## Installation
 
-Clone the repository:
+1. download the tarball and unzip to your server.
 
-	git clone git://github.com/laurencedawson/embr.git
+2. Database settings can be changed by editing the file:
 
-Run the install script:
+	application/config/database.php
 
-	cd embr && sh install.sh
-
-Blog settings can be changed by editing the file:
+3. Blog settings can be changed by editing the file:
 
 	application/config/blog.php
 	
+4. Note: Please make sure there is no database named "blog" in you mysql system.
+
+5. When you access the website on the first time, the database will be created automatically.
 	
 
